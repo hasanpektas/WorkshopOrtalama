@@ -11,7 +11,7 @@ if final < 40:
     print("Fail")
 elif ortalama < 50:
     print("Fail")
-elif vize <= final * 2:
+elif vize == final * 2:
     print("Fail")
 else:
     print("Pass")
